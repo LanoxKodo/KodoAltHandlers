@@ -1,0 +1,7 @@
+##############################
+### KodoAltHandlers Config ###
+##############################
+
+#Flag for whether the bucket-dispenser logic provided by this plugin should be used.
+#Default: true
+useDispenserBucketLogic: true

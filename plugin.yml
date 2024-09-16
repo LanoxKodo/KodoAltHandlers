@@ -1,0 +1,7 @@
+main: dev.lanoxkodo.KodoAltHandlers
+name: KodoAltHandlers
+author: Lanox Kodo
+website: https://lanoxkododev.fr.to
+version: 1.0
+api-version: 1.20.5
+description: "Plugin for adding custom recipes, additional dispenser logic, and more later on."

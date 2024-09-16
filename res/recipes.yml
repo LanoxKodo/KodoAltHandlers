@@ -1,0 +1,28 @@
+# Recipes can be created using this config file, the plugin will register them when the plugin is loaded.
+# Example recipes are shown below for each type, use these as a basis for each recipe type.
+
+# Recipes for color-based conversions in a furnace.
+# Omit the color from inputs and outputs and also leave the beginning underscore mark.
+# Example: for red_concrete_powder to red_stained_glass, 'red' is removed so the plugin can work with all colored variants
+ColoredSmelt:
+  cPowder2sGlass:
+    Input: _concrete_powder
+    Output: _stained_glass
+  concrete2cPowder:
+    Input: _concrete
+    Output: _concrete_powder
+
+# Recipes for basic smelting.
+# No special logic, same as any vanilla smelting recipes.
+PlainSmelt:
+  flesh2leather:
+    Input: rotten_flesh
+    Output: leather
+
+# Recipes done via crafting
+# Note: for recipes with multiple input materials, enter each on a new line with '-' at the start
+Crafting:
+  quartzReverse:
+    Input: quartz_block
+    Output: quartz
+    OutputCount: 4
